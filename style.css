@@ -1,0 +1,112 @@
+/* GENERAL */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+    /* Navbar */
+.navbar{
+    background-color: #000;
+    position: sticky;
+    top: 0;
+}
+.logo_{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    position: absolute;
+    top: 22px;
+    margin-left: 75vw;
+}
+li{
+    display: inline;
+}
+.characters_{
+    margin-left: 5px;
+}
+.about{
+    margin-left: 25px;
+}
+.help{
+    margin-left: 25px;
+}
+
+/* Header */
+.about_{
+    background-image: url("./images/bg_avengers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+}
+.title_{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-top: 3.2em;
+    font-size: 90px;
+}
+#about_{
+    font-size: 20px;
+    text-align: justify;
+    width: 600px;
+    margin-left: 5px;
+}
+
+/* Footer */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3a1d53;
+    color: #dfdfdd;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+.copyright:hover{
+    color: #eb7393;
+    text-decoration: none;
+}
+
+@media screen and (min-width:768px){
+    h1{
+        font-size: 25px;
+    }
+    .navbar{
+        background-color: lightgreen;
+        color: black;
+    }
+}
+
+@media screen and (max-width:600px){
+    h1{
+        font-size: 35px;
+    }
+    .navbar{
+        background-color: yellow;
+        color: black;
+    }
+}
+
+@media screen and (min-width:992px){
+    .navbar{
+      background-color: red;
+      color: white;
+  }
+}
+
+@media screen and (min-width:1200px){
+  
+    .navbar{
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+}
